@@ -1,0 +1,18 @@
+.textImage {
+    font-size: 100px; /* Adjust size as needed */
+    font-weight: bold;
+    background-image: url('/fontImage.png'); /* Replace with your image path */
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+.home{
+    font-size : 152px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
