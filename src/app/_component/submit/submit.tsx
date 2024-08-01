@@ -18,7 +18,7 @@ const Submit = () => {
     // if (typeof phone === "string") errors.phone = "Please enter Phone number.";
   };
   return (
-    <div className="px-5 border-b-[1px] ">
+    <div className="px-5 border-b-[1px]" id="contact">
       <div className="flex flex-col md:px-[100px] md:flex-row justify-between">
         <div className="text-[40px] lg:text-[66px] xl:text-[100px] text-center  font-black textImage">
           GET IN TOUCH

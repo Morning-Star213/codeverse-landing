@@ -12,7 +12,7 @@ const Experience = () => {
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:pr-[40px]">
         <div className="pb-1">
-          <div className="xl:text-[90px] lg:text-[60px] leading-[50px] xl:leading-[70px] text-[50px] text-center textImage font-black">
+          <div className="xl:text-[90px] lg:text-[60px] sm:text-[80px] text-[50px] leading-[50px] sm:leading-[100px] lg:leading-[80px] xl:leading-[100px] text-center textImage font-black">
             $200K
           </div>
           <div className="xl:text-[20px] text-[12px] text-center">
@@ -20,7 +20,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="pb-1">
-          <div className="xl:text-[90px] lg:text-[60px] leading-[50px] xl:leading-[70px] text-[50px] text-center textImage font-black">
+          <div className="xl:text-[90px] lg:text-[60px] sm:text-[80px] text-[50px] leading-[50px] sm:leading-[100px] lg:leading-[80px] xl:leading-[100px] text-center textImage font-black">
             865
           </div>
           <div className="xl:text-[20px] text-[12px] text-center">
@@ -28,7 +28,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="pb-1">
-          <div className="xl:text-[90px] lg:text-[60px] leading-[50px] xl:leading-[70px] text-[50px] text-center textImage font-black">
+          <div className="xl:text-[90px] lg:text-[60px] sm:text-[80px] text-[50px] leading-[50px] sm:leading-[100px] lg:leading-[80px] xl:leading-[100px] text-center textImage font-black">
             10
           </div>
           <div className="xl:text-[20px] text-[12px] text-center">

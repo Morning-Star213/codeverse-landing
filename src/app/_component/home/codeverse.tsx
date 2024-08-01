@@ -7,7 +7,7 @@ const Codeverse = () => {
   return (
     <div className="pt-[130px]">
       <div id="home">
-        <div className="md:justify-normal font-sans justify-center xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[60px] text-[40px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[55px] leading-[35px] font-black flex textImage ">
+        <div className="md:justify-normal justify-center xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[60px] text-[60px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[55px] leading-[50px] font-black flex textImage ">
           CODEVERSE
         </div>
         <div className="md:justify-normal justify-center flex xl:text-[104px] lg:text-[70px] md:text-[50px] sm:text-[35px] text-[20px] xl:pl-[450px] lg:pl-[320px] md:pl-[220px]  xl:leading-[110px] lg:leading-[90px] font-black textImage ">
@@ -19,7 +19,7 @@ const Codeverse = () => {
             providing cutting-edge solutions across a wide range of
             technologies.
           </div>
-          <div className="xl:ml-[230px] lg:ml-[165px] md:ml-[115px] xl:top-[410px] lg:top-[340px] md:top-[275px] sm:top-[320px] xl:w-[830px] lg:w-[630px] md:w-[430px] sm:w-[450px] absolute">
+          <div className="xl:ml-[265px] lg:ml-[165px] md:ml-[137px] xl:top-[410px] lg:top-[340px] md:top-[275px] sm:top-[320px] xl:w-[830px] lg:w-[630px] md:w-[430px] sm:w-[450px] absolute">
             With a team of highly skilled and experienced professionals, we
             offer comprehensive services in back-end development, front-end
             development, and blockchain technology.

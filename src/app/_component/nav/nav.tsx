@@ -35,7 +35,7 @@ const Nav = () => {
           // }}
           className="hover:cursor-pointer hover:text-white hover:scale-y-[1.01] transition delay-100"
         >
-          <Link href="/#about">About</Link>
+          <Link href="/#contact">Contact</Link>
         </div>
         <span className="">/</span>
         <div
