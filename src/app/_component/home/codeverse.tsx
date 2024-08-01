@@ -7,10 +7,11 @@ const Codeverse = () => {
   return (
     <div className="pt-[130px]">
       <div id="home">
-        <div className="md:justify-normal justify-center xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[60px] text-[60px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[55px] leading-[50px] font-black flex textImage ">
+        {/* //xl:text-[90px] lg:text-[60px] sm:text-[80px] text-[70px] */}
+        <div className="md:justify-normal justify-center xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[60px] text-[80px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[55px] leading-[70px] font-black flex textImage ">
           CODEVERSE
         </div>
-        <div className="md:justify-normal justify-center flex xl:text-[104px] lg:text-[70px] md:text-[50px] sm:text-[35px] text-[20px] xl:pl-[450px] lg:pl-[320px] md:pl-[220px]  xl:leading-[110px] lg:leading-[90px] font-black textImage ">
+        <div className="md:justify-normal justify-center flex xl:text-[104px] lg:text-[70px] md:text-[50px] sm:text-[35px] text-[35px] xl:pl-[450px] lg:pl-[320px] md:pl-[220px]  xl:leading-[110px] lg:leading-[90px] font-black textImage ">
           TECHNOLOGIES
         </div>
         <div className="xl:text-[20px] lg:text-[15px] md:text-[10px] sm:text-[13px] xl:pl-[145px] lg:pl-[75px] md:pl-[60px] md:text-left text-center md:justify-normal justify-center sm:flex hidden">
