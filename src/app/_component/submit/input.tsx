@@ -19,7 +19,7 @@ const Input = ({
       <input
         type={type}
         placeholder={placeholder}
-        onChange={(e: any) => onChange(e.target.value)}
+        onChange={(e: any) => onChange(e.target?.value)}
         className={`${
           error ? "border-rose-500" : "border-white"
         } rounded-md bg-black bg-opacity-0  md:w-[95%] pl-3 border-2 h-[35px]`}

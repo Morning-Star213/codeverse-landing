@@ -34,10 +34,10 @@ const Submit = () => {
             type="text"
             placeholder="Yuliia"
             onChange={(e) => {
-              setName(e.target.value);
+              setName(e.target?.value);
               setError({});
             }}
-            error={errors.name}
+            error={errors?.name}
           >
             Your name
           </Input>
@@ -46,9 +46,9 @@ const Submit = () => {
           <Input
             type="string"
             placeholder="+242121212"
-            error={errors.phone}
+            error={errors?.phone}
             onChange={(e) => {
-              setPhone(e.target.value);
+              setPhone(e.target?.value);
             }}
           >
             Phone
