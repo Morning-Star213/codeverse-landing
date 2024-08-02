@@ -45,7 +45,7 @@ const Skills = ({
         / Skills
       </div>
       <div className="grid">
-        <div className=" absolute right-[-70px] md:right-0 flex justify-end px-0 mx-0">
+        <div className="absolute right-0 flex justify-end px-0 mx-0">
           <Image
             src="/image/circle2.svg"
             className=" max-w-[100%] h-auto px-0 mx-0"

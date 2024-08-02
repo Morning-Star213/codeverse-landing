@@ -3,7 +3,7 @@ import React from "react";
 
 const Nav = ({ activeSection }: { activeSection: string }) => {
   return (
-    <div className="fixed bg-[#3C3C3C] bg-opacity-75 text-center bottom-4 px-4 h-[50px] rounded-lg z-50">
+    <div className="fixed bg-[#3C3C3C] bg-opacity-75 text-center bottom-4 px-2 md:px-4 h-[50px] rounded-lg z-50">
       <div className="flex m-3">
         <div className="text-[#959393] flex gap-1 text-[16px]">
           <div

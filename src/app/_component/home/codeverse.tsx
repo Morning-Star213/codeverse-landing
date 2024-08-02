@@ -10,7 +10,6 @@ const Codeverse = ({
   id: string;
   setActiveSection: (id: string) => void;
 }) => {
-
   useEffect(() => {
     const sectionElement = document.getElementById(id);
     if (!sectionElement) return;
@@ -36,10 +35,10 @@ const Codeverse = ({
   return (
     <div className="pt-[150px]">
       <div id={id}>
-        <div className="md:justify-normal xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[75px] text-[50px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[60px] leading-[70px] font-black flex textImage ">
+        <div className="md:justify-normal xl:text-[152px] lg:text-[100px] md:text-[70px] sm:text-[75px] text-[40px] xl:leading-[130px] lg:leading-[100px] md:leading-[60px] sm:leading-[60px] leading-[70px] font-black flex textImage ">
           CODEVERSE
         </div>
-        <div className="md:justify-normal  flex xl:text-[104px] lg:text-[70px] md:text-[50px] sm:text-[45px] text-[37px] xl:pl-[450px] lg:pl-[320px] md:pl-[220px] sm:pl-[220px]  xl:leading-[110px] lg:leading-[90px] font-black textImage ">
+        <div className="md:justify-normal  flex xl:text-[104px] lg:text-[70px] md:text-[50px] sm:text-[45px] text-[32px] xl:pl-[450px] lg:pl-[320px] md:pl-[220px] sm:pl-[220px]  xl:leading-[110px] lg:leading-[90px] font-black textImage ">
           TECHNOLOGIES
         </div>
         <div className="xl:text-[20px] lg:text-[15px] md:text-[10px] sm:text-[9px] text-[8px] xl:pl-[145px] lg:pl-[75px] md:pl-[50px] sm:pl-[60px] md:text-left">
@@ -48,7 +47,7 @@ const Codeverse = ({
             providing cutting-edge solutions across a wide range of
             technologies.
           </div>
-          <div className="xl:ml-[265px] lg:ml-[165px] md:ml-[137px] sm:ml-[70px] ml-[95px] xl:top-[510px] lg:top-[440px] md:top-[375px] sm:top-[360px] top-[410px] xl:w-[830px] lg:w-[630px] md:w-[430px] sm:w-[450px] w-[220px] absolute">
+          <div className="xl:ml-[265px] lg:ml-[165px] md:ml-[137px] sm:ml-[70px] ml-[95px] xl:top-[510px] lg:top-[440px] md:top-[375px] sm:top-[360px] top-[410px] xl:max-w-[830px] lg:max-w-[630px] md:max-w-[430px] sm:max-w-[450px] max-w-[200px] absolute">
             With a team of highly skilled and experienced professionals, we
             offer comprehensive services in back-end development, front-end
             development, and blockchain technology.
