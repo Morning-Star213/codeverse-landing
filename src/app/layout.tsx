@@ -6,8 +6,6 @@ const JotaiProvider = dynamic(() => import("@/providers/jotaiProvider"), {
   ssr: false,
 });
 import "./globals.css";
-import Header from "./_component/nav/Header";
-import Footer from "./_component/nav/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,11 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#1E1E1E] text-white`}>
-        <Header />
-        <div className="md:px-10 lg:px-20 px-5">
-          <JotaiProvider>{children}</JotaiProvider>
-        </div>
-        <Footer />
+        <JotaiProvider>{children}</JotaiProvider>
       </body>
     </html>
   );

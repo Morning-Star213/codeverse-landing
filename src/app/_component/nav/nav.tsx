@@ -1,71 +1,50 @@
-// "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
-const Nav = () => {
-  // const [home, setHome] = useState<boolean>(true);
-  // const [about, setAbout] = useState<boolean>(false);
-  // const [skills, setSkills] = useState<boolean>(false);
-  // const [portfolio, setPortfolio] = useState<boolean>(false);
+const Nav = ({ activeSection }: { activeSection: string }) => {
   return (
-    <div className="lg:flex hidden my-auto pr-[80px]">
-      <div className="text-[#959393] flex gap-3 text-[18px]">
-        <div
-          // className={`${home ? "text-white" : ""} hover:cursor-pointer`}
-          // onClick={() => {
-          //   setHome(true);
-          //   setAbout(false);
-          //   setPortfolio(false);
-          //   setSkills(false);
-          // }}
-          className="hover:cursor-pointer text-white hover:scale-y-[1.01] transition delay-100"
-        >
-          <Link href="/#home">Home</Link>
-        </div>
-        <span className="">/</span>
-        <div
-          // className={`${
-          //   about ? "text-white" : ""
-          // } hover:cursor-pointer hover:text-white`}
-          // onClick={() => {
-          //   setHome(false);
-          //   setAbout(true);
-          //   setPortfolio(false);
-          //   setSkills(false);
-          // }}
-          className="hover:cursor-pointer hover:text-white hover:scale-y-[1.01] transition delay-100"
-        >
-          <Link href="/#contact">Contact</Link>
-        </div>
-        <span className="">/</span>
-        <div
-          // className={`${
-          //   skills ? "text-white" : ""
-          // } hover:cursor-pointer  hover:text-white`}
-          // onClick={() => {
-          //   setHome(false);
-          //   setAbout(false);
-          //   setSkills(true);
-          //   setPortfolio(false);
-          // }}
-          className="hover:cursor-pointer hover:text-white hover:scale-y-[1.01] transition delay-100"
-        >
-          <Link href="/#skills">Skills</Link>
-        </div>
-        <span className="">/</span>
-        <div
-          // className={`${
-          //   portfolio ? "text-white" : ""
-          // } hover:cursor-pointer  hover:text-white`}
-          // onClick={() => {
-          //   setHome(false);
-          //   setAbout(false);
-          //   setSkills(false);
-          //   setPortfolio(true);
-          // }}
-          className="hover:cursor-pointer hover:text-white hover:scale-y-[1.01] transition delay-100"
-        >
-          <Link href="/#portfolio">Portfolio</Link>
+    <div className="fixed bg-[#3C3C3C] bg-opacity-75 text-center bottom-4 px-4 h-[50px] rounded-lg z-50">
+      <div className="flex m-3">
+        <div className="text-[#959393] flex gap-1 text-[16px]">
+          <div
+            className={`hover:cursor-pointer hover:text-white hover:scale-y-[1.01] ${
+              activeSection === "home"
+                ? "text-white underline"
+                : "text-[#959393]"
+            } transition delay-100`}
+          >
+            <Link href="/#home">Home</Link>
+          </div>
+          <span>/</span>
+          <div
+            className={`hover:cursor-pointer hover:text-white hover:scale-y-[1.01] ${
+              activeSection === "skills"
+                ? "text-white underline"
+                : "text-[#959393]"
+            } transition delay-100`}
+          >
+            <Link href="/#skills">Skills</Link>
+          </div>
+          <span>/</span>
+          <div
+            className={`hover:cursor-pointer hover:text-white hover:scale-y-[1.01] ${
+              activeSection === "portfolio"
+                ? "text-white underline"
+                : "text-[#959393]"
+            } transition delay-100`}
+          >
+            <Link href="/#portfolio">Portfolio</Link>
+          </div>
+          <span>/</span>
+          <div
+            className={`hover:cursor-pointer hover:text-white hover:scale-y-[1.01] ${
+              activeSection === "contact"
+                ? "text-white underline"
+                : "text-[#959393]"
+            } transition delay-100`}
+          >
+            <Link href="/#contact">Contact</Link>
+          </div>
         </div>
       </div>
     </div>

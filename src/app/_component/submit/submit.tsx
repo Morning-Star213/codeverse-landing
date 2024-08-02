@@ -11,16 +11,14 @@ const Submit = () => {
 
   const onsubmit = () => {
     let err: any = {};
-    console.log("ccccccccccccccccccccc");
     if (name === "") err.name = "Please enter Your name.";
     if (phone === "") err.phone = "Please enter Phone number.";
     setError(err);
-    // if (typeof phone === "string") errors.phone = "Please enter Phone number.";
   };
   return (
     <div className="px-5 border-b-[1px]" id="contact">
       <div className="flex flex-col md:px-[100px] md:flex-row justify-between">
-        <div className="text-[40px] lg:text-[60px] xl:text-[80px] text-center  font-black textImage">
+        <div className="text-[45px] lg:text-[60px] xl:text-[80px] text-center textImage">
           GET IN TOUCH
         </div>
         <div className="text-[14px] md:text-[9px] lg:text-[12px] xl:text-[16.5px] md:flex my-auto text-center md:text-left basis-1/4">

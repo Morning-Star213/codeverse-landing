@@ -21,7 +21,7 @@ const Input = ({
         placeholder={placeholder}
         onChange={(e: any) => onChange(e.target?.value)}
         className={`${
-          error ? "border-rose-500" : "border-white"
+          error ? "border-rose-500" : "border-gray-400"
         } rounded-md bg-black bg-opacity-0  md:w-[95%] pl-3 border-2 h-[35px]`}
       />
       {/* <span className="text-rose-500 text-[12px]">{error}</span> */}
