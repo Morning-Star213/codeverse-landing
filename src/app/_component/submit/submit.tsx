@@ -16,9 +16,9 @@ const Submit = () => {
     setError(err);
   };
   return (
-    <div className="px-5 border-b-[1px]" id="contact">
+    <div className="px-5 border-b-[1px] xl:px-[150px]" id="contact">
       <div className="flex flex-col md:px-[100px] md:flex-row justify-between">
-        <div className="text-[45px] lg:text-[60px] xl:text-[80px] text-center textImage">
+        <div className="text-[45px] lg:text-[60px] xl:text-[80px]  text-center textImage">
           GET IN TOUCH
         </div>
         <div className="text-[14px] md:text-[9px] lg:text-[12px] xl:text-[16.5px] md:flex my-auto text-center md:text-left basis-1/4">
@@ -52,12 +52,12 @@ const Submit = () => {
             Phone
           </Input>
         </div>
-        <div className=" scale-[0.5] md:scale-[0.6]">
+        <div className="p-5">
           <Image
             src={submit ? "/image/submit2.svg" : "/image/submit1.svg"}
             alt="submitus"
             className="hover:cursor-pointer"
-            width={284}
+            width={165}
             height={55}
             onMouseEnter={() => setSubmit(true)}
             onMouseLeave={() => setSubmit(false)}

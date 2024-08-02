@@ -9,8 +9,8 @@ const Experience = () => {
       <div className="pb-[70px] text-[25px] md:text-[30px] ">
         / OUR EXPERIENCE
       </div>
-      <div className="flex flex-col lg:flex-row lg:justify-between lg:pr-[40px]">
-        <div className="pb-1">
+      <div className="flex flex-col lg:flex-row lg:justify-between sm:px-[40px] lg:pr-[80px]">
+        <div className="pb-1 pl-[20px]">
           <div className="xl:text-[90px] lg:text-[60px] sm:text-[80px] text-[66px] leading-[60px] sm:leading-[100px] lg:leading-[80px] xl:leading-[100px] text-center textImage font-black">
             $200K
           </div>
