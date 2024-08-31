@@ -7,4 +7,6 @@ const Provider = ({ children }: { children: React.ReactNode }) => {
   return <JotaiProvider>{children}</JotaiProvider>;
 };
 
+
+
 export default Provider;
